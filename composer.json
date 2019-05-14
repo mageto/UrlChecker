@@ -1,0 +1,17 @@
+{
+    "name": "Mageto/UrlChecker",
+    "description": "A url checker for laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mageto Denis",
+            "email": "mageto.denis@gmail.com"
+        }
+    ],
+    "require": {},
+        "autoload": {
+            "psr-4": {
+                "Mageto\\UrlChecker\\": "src/"
+            }
+        }
+}
