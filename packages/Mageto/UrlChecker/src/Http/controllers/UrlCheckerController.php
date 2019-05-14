@@ -1,23 +1,21 @@
 <?php
 
-namespace Mageto\UrlChecker;
+namespace Mageto\UrlChecker\Http\Controllers;
 
+use Illuminate\Support\Facades\Redirect;
 use App\Http\Controllers\Controller;
 use Request;
-use Wisdmlabs\Todolist\Task;
 
 class UrlCheckerController extends Controller
 {
     public function index()
     {
-      return 'Hello from the controller file';
-     //  if (request()==\DB::table('configs')->where('id', 1)->value('website')) {
-     //   return view('index');
-     // }
-     // else{
-     //     // return redirect('http://anotherdomain.com/');
-     //     return view('welcome');
-     // }
+      if (Request::url() === "xxx.com") {
+          return view('welcome');
+        }
+        else{
+            return Redirect::to('yyy.com');
+        }
     }
 }
 
