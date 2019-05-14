@@ -9,9 +9,20 @@
         }
     ],
     "require": {},
-        "autoload": {
+    "autoload": {
+            "classmap": [
+                "database/seeds",
+                "database/factories"
+            ],
             "psr-4": {
-                "Mageto\\UrlChecker\\": "src/"
+                "Mageto\\UrlChecker\\": "packages/Mageto/UrlChecker/src",
+                "App\\": "app/"
+            }
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "Mageto\\UrlChecker\\": "packages/Mageto/UrlChecker/src",
+                "Tests\\": "tests/"
             }
         }
 }
