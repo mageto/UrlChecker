@@ -8,6 +8,7 @@
             "name": "Mageto Denis",
             "email": "mageto.denis@gmail.com"
         }
+    "minimum-stability": "dev",
     ],
     "require": {},
     "autoload": {
@@ -19,11 +20,6 @@
                 "Mageto\\UrlChecker\\": "packages/Mageto/UrlChecker/src",
                 "App\\": "app/"
             }
-        },
-        "autoload-dev": {
-            "psr-4": {
-                "Mageto\\UrlChecker\\": "packages/Mageto/UrlChecker/src",
-                "Tests\\": "tests/"
-            }
+        }
         }
 }
