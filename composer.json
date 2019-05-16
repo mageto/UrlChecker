@@ -1,14 +1,12 @@
 {
     "name": "mageto/url-checker",
     "description": "A url checker for laravel",
-    "version": "1.0.0",
     "type": "library",
     "authors": [
         {
             "name": "Mageto Denis",
             "email": "mageto.denis@gmail.com"
         }
-    "minimum-stability": "dev",
     ],
     "require": {},
     "autoload": {
