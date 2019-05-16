@@ -1,6 +1,7 @@
 {
     "name": "mageto/url-checker",
     "description": "A url checker for laravel",
+    "version": "1.0.0",
     "type": "library",
     "authors": [
         {
